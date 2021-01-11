@@ -1,4 +1,4 @@
-.navbar-basile {
+.navbar-jamile {
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -8,6 +8,11 @@
   width: fit-content;
   transition: all .3s ease;
   padding: 0;
+
+  &.active {
+    opacity: 0.95;
+    background-color: #FBFBFF !important;
+  }
 
   .navbar-collapse {
     flex-grow: 0;
@@ -51,14 +56,14 @@
 }
 
 .nav-link {
-  color: $blue !important;
+  color: $secondary-blue !important;
   transition: box-shadow .3s ease;
   box-shadow: none;
-  font-family: 'courier';
   transition: all .3s ease;
+  padding-left: 8px;
 
   &:hover {
-    box-shadow: 0 1px 0 $blue;
+    transform: scale(1.2);
   }
 }
 
@@ -70,18 +75,12 @@ button:focus {
   opacity: 0;
 }
 
-.dropdown-menu {
-  font-family: 'courier';
-  color: $blue;
-  min-width: fit-content;
-  width: fit-content;
-}
 
-@media (max-width: 768px) {
-  .navbar-basile {
-
-    &.active {
-      background-color: $light-gray !important;
-    }
-  }
-}
+//@media (max-width: 768px) {
+//  .navbar-basile {
+//
+//    &.active {
+//      background-color: $light-gray !important;
+//    }
+//  }
+//}

@@ -1,0 +1,19 @@
+.stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current-stack {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 32px;
+}
+
+.stack-icon {
+  height: 80px;
+  width: 80px;
+  object-fit: scale-down;
+}
