@@ -1,0 +1,49 @@
+.banner-container {
+  //background-color: #70DCBE;
+  background-color: rgba(112, 220, 190, 0.5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 32px 0 32px;
+
+  //padding: 36vh 0.5rem 0.5rem;
+  //background-repeat: no-repeat;
+  //background-position: top;
+  //position: relative;
+  //filter: grayscale(0.2);
+}
+
+.banner-text {
+  text-align: center;
+
+  h1 {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 90px;
+    color: $dark-blue;
+  }
+
+  h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    color: $secondary-blue;
+
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .banner-container {
+    background-color: rgba(112, 220, 190, 0.5);
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 32px 0 32px;
+  }
+  .banner-text {
+    text-align: center;
+    margin-top: 16px;
+  }
+}
