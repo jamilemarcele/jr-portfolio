@@ -1,5 +1,4 @@
 .banner-container {
-  //background-image: url("webdev-girl.svg");
   background-color: rgba(112, 220, 190, 0.5);
   height: 100vh;
   display: flex;
@@ -37,8 +36,9 @@
 
   .banner-container {
     background-color: rgba(112, 220, 190, 0.5);
-    height: 100vh;
-    display: block;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 40px 32px 0 32px;
