@@ -25,6 +25,7 @@ require("channels")
 // External imports
 import "bootstrap";
 import { navToggle } from './nav_toggle';
+import { loadDynamicBannerText } from '../components/banner';
 
 
 // Internal imports, e.g:
@@ -32,4 +33,8 @@ import { navToggle } from './nav_toggle';
 
 document.addEventListener('turbolinks:load', () => {
   navToggle();
+});
+
+document.addEventListener('turbolinks:load', () => {
+  loadDynamicBannerText();
 });

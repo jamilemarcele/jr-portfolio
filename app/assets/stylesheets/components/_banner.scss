@@ -1,5 +1,5 @@
 .banner-container {
-  background-color: rgba(112, 220, 190, 0.5);
+  background-color: rgba(112, 220, 190, 0.6);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -16,32 +16,34 @@
 
 .banner-text {
   text-align: center;
-
-  h1 {
-    font-family: 'Dawning of a New Day', cursive;
-    font-size: 90px;
-    color: $dark-blue;
-  }
-
-  h2 {
-    font-family: 'Catamaran', sans-serif;
-    font-weight: bold;
-    font-size: 52px;
-    color: $secondary-blue;
-
-  }
 }
 
 @media only screen and (max-width: 1024px) {
 
   .banner-container {
     background-color: rgba(112, 220, 190, 0.5);
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 32px 0 32px;
+    padding: 0 32px;
+
+    #banner-h1 {
+      font-size: 75px !important;
+      font-weight: 700 !important;
+    }
+
+    #curly-font {
+      font-size: 80px;
+      font-family: $Special-h1;
+    }
+
+    h2 {
+      font-size: 48px !important;
+      font-weight: 700 !important;
+      color: #3F3D56 !important;
+    }
   }
   .banner-text {
     text-align: center;

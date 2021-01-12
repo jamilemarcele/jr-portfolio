@@ -1,17 +1,35 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Dawning+of+a+New+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Rochester&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: "Catamaran", "sans-serif";
+$headers-font: "Catamaran", "sans-serif";
+$Special-h1: "Alex Brush", "cursive";
 
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+h1 {
+  font-size: 76px !important;
+  font-weight: 700 !important;
+}
+
+h2 {
+  font-size: 56px !important;
+  font-weight: 700 !important;
+  color: #3F3D56 !important;
+}
+
+p {
+  font-size: 18px;
+  font-family: $body-font;
+}
+
+#curly-font {
+  font-size: 90px;
+  font-family: $Special-h1;
+}
+
+#banner-h1 {
+  font-size: 88px !important;
+  font-weight: 700 !important;
+}
