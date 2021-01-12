@@ -16,4 +16,5 @@
   height: 80px;
   width: 80px;
   object-fit: scale-down;
+  filter: invert(60%) sepia(90%) saturate(283%) hue-rotate(166deg) brightness(85%) contrast(88%);
 }
