@@ -2,11 +2,10 @@
   -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
   -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
   box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
-  // height: 550px;
-  height: 80vh;
+  background-color: #ffffff;
+  height: 50vh;
   border-radius: 12px;
   padding-bottom: 2rem;
-  //background-image: url('girls1.png');
   background-size: contain;
 }
 
@@ -19,82 +18,53 @@
   //}
 }
 
-.img-device {
-  width: 95%;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+.img-cocktail {
+  width: 50%;
 }
 
-.rotate {
-  transform: scale(1.1) rotate(10deg);
+.img-cocktail-small {
+  width: 25%;
 }
 
-.small-rotate {
+.img-plantify {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.rotate-left {
   transform: rotate(-5deg);
+}
+
+.rotate-right {
+  transform: rotate(5deg);
 }
 
 .carousel-inside {
   padding-right: 5rem;
   padding-left: 5rem;
   margin-top: 0.5rem;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.mobile-content-center {
-  margin-top: 3rem;
 }
 
 .img-device-flex {
-  width: 90%;
+  width: 32%;
 }
 
-.position {
-  display: flex;
-}
-
-.magin-right-flexible {
-  margin-right: 3rem
-}
-
-// small screen
 @media only screen and (max-width: 768px) {
+
+  #carouselExampleIndicators {
+    -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+    -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+    box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+    background-color: #ffffff;
+    height: auto;
+    border-radius: 12px;
+    padding-bottom: 2rem;
+    //background-image: url('girls1.png');
+    background-size: contain;
+  }
   .carousel-inside {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     margin-top: 2rem;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .img-device-flex {
-    width: 30%;
-  }
-
-  .img-device {
-    width: 50%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-  .mobile-w-50 {
-    width: 30%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    height: auto;
-  }
-
-  .mobile-content-center {
-    margin-top: 0.5rem;
-    justify-content: center;
-  }
-
-  .position {
-    display: block;
-  }
-
-  .magin-right-flexible {
-    text-align: center;
-    margin-right: 0rem
   }
 }

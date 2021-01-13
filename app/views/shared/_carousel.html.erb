@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -7,29 +7,29 @@
 
   <div class="carousel-inner">
 
-    <div class="carousel-item active">
+    <div class="carousel-item p-5 active">
       <div class="d-block w-100">
         <div class="col-sm-12">
           <%= link_to "https://www.cleanaroo.app/", target: "_blank" do %>
-            <h4>Cleanaroo</h4>
+            <h4 class="text-center">Cleanaroo</h4>
           <% end %>
         </div>
 
         <div class="row carousel-inside">
-          <div class="col-sm-6">
-            <%= link_to "https://www.cleanaroo.app/", target: "_blank" do %>
-              <div class="d-flex col-sm-6 align-items-start mobile-content-center">
-                <%= image_tag "clenarooDashboard.png", class: "img-device-flex mobile-w-50" %>
-                <%= image_tag "cleanaroo.png", class: "img-device-flex mobile-w-50 rotate" %>
-                <%= image_tag "cleanarooFindCleaner.png", class: "img-device-flex mobile-w-50" %>
 
-              </div>
+          <div class="col-sm-6 mobile-content-center">
+            <%= link_to "https://www.cleanaroo.app/", target: "_blank" do %>
+              <%= image_tag "clenarooDashboard.png", class: "img-device-flex" %>
+              <%= image_tag "cleanaroo.png", class: "img-device-flex" %>
+              <%= image_tag "cleanarooFindCleaner.png", class: "img-device-flex" %>
             <% end %>
           </div>
+
           <div class="col-sm-6">
             <p>Cleanaroo is an user friendly mobile app that matches busy vacation rental property managers with
               the best cleaner offering them high quality and reliable cleaning service. </p>
           </div>
+
         </div>
 
       </div>
@@ -39,19 +39,22 @@
       <div class="d-block w-100">
         <div class="col-sm-12">
           <%= link_to "https://plantyfy.herokuapp.com/", target: "_blank" do %>
-            <h4>Plantify</h4>
+            <h4 class="text-center">Plantify</h4>
           <% end %>
         </div>
 
         <div class="row carousel-inside">
+
           <div class="col-sm-6">
             <%= link_to "https://plantyfy.herokuapp.com/", target: "_blank" do %>
-              <%#= image_tag "plantify.png", class: "img-device" %>
+              <%= image_tag "plantyfyMacBookAir.png", class: "img-plantify" %>
             <% end %>
           </div>
+
           <div class="col-sm-6">
             <p>Plantify is a renting plant service for variety seeking, busy and gardening-skills-lacking people, wanting to get assistance in choosing the right plants to enjoy a home filled with green love.</p>
           </div>
+
         </div>
       </div>
     </div>
@@ -60,21 +63,23 @@
       <div class="d-block w-100">
         <div class="col-sm-12">
           <%= link_to "https://mrcocktail-jamile.herokuapp.com/", target: "_blank" do %>
-            <h4>Mr Cocktail</h4>
+            <h4 class="text-center">Mr Cocktail</h4>
           <% end %>
         </div>
 
         <div class="row carousel-inside">
-          <div class="col-sm-4">
-            <div>
-              <%= link_to "https://mrcocktail-jamile.herokuapp.com//", target: "_blank" do %>
-                <%#= image_tag "mr-cocktail.png", class: "img-device mobile-w-50 small-rotate" %>
-              <% end %>
-            </div>
+
+          <div class="col-sm-6">
+            <%= link_to "https://mrcocktail-jamile.herokuapp.com//", target: "_blank" do %>
+              <%= image_tag "mrcocktailIpad.png", class: "img-cocktail rotate-left" %>
+              <%= image_tag "mrcocktail-Iphone.png", class: "img-cocktail-small rotate-right" %>
+          <% end %>
           </div>
+
           <div class="col-sm-6">
             <p>A cocktail listing and creation platform. Users can view cocktails listed and add their own creation. There is also option to leave a review. Mr Cocktail is my first own project built at the beginning for my coding journey.</p>
           </div>
+
         </div>
       </div>
     </div>

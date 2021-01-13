@@ -1,28 +1,4 @@
-//.about-rellax {
-//  background-color: red;
-//  z-index: -5;
-//}
-
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .about-text p {
   line-height: 2.5rem;
-}
-
-.about-img {
-  margin-right: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-  .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
+  align-items: center;
 }
