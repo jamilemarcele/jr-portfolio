@@ -24,17 +24,24 @@ require("channels")
 
 // External imports
 import "bootstrap";
-import { navToggle } from './nav_toggle';
-import { loadDynamicBannerText } from '../components/banner';
-
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
+import { navToggle } from './nav_toggle';
+import { loadDynamicBannerText } from '../components/banner';
+import { initRellax } from '../packs/rellax.js';
 
 document.addEventListener('turbolinks:load', () => {
+  // Navbar animation
   navToggle();
+
+  // Banner type script
+  loadDynamicBannerText();
+
+  //RELLAX INIT
+  if (document.querySelector('.rellax')) {
+    initRellax();
+  }
+
 });
 
-document.addEventListener('turbolinks:load', () => {
-  loadDynamicBannerText();
-});
