@@ -1,0 +1,91 @@
+#carouselExampleIndicators {
+  -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  background-color: #ffffff;
+  height: 55vh;
+  border-radius: 12px;
+  //padding-bottom: 5rem !important;
+  background-size: contain;
+}
+
+.carousel-inside {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  margin-top: 2.1rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF6584' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF6584' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.mdb-carousel .carousel-multi-item .controls-top .btn-floating {
+  background: $pink-portfolio;
+}
+
+.carousel-indicators {
+  li {
+    background-color: $pink-portfolio !important;
+  }
+}
+
+.carousel-item a:hover {
+  text-decoration: none;
+}
+
+.img-cocktail {
+  width: 50%;
+}
+
+.img-cocktail-small {
+  width: 25%;
+}
+
+.img-plantify {
+  width: 100%;
+  //margin-top: 2.1rem;
+}
+
+.rotate-left {
+  transform: rotate(-5deg);
+}
+
+.rotate-right {
+  transform: rotate(5deg);
+}
+
+.img-device-flex {
+  width: 32%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #carouselExampleIndicators {
+    -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+    -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+    box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+    background-color: #ffffff;
+    height: auto;
+    border-radius: 12px;
+    padding-bottom: 2rem;
+    background-size: contain;
+  }
+  .carousel-inside {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .mobile-content {
+    margin-top: 2rem;
+  }
+
+  .img-plantify {
+    width: 100%;
+  }
+
+}

@@ -1,7 +1,21 @@
+.project {
+  margin-top: 10vh;
+  background-color: white;
+
+  p {
+    line-height: 2.5rem;
+  }
+}
+
 .stack {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10vh 0;
+
+  img {
+    width: 100%;
+  }
 }
 
 .current-stack {
@@ -16,4 +30,8 @@
   height: 80px;
   width: 80px;
   object-fit: scale-down;
+}
+
+#stack-color {
+  color: $pink-portfolio;
 }
