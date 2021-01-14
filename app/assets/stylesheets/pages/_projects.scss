@@ -1,6 +1,10 @@
 .project {
   margin-top: 10vh;
   background-color: white;
+
+  p {
+    line-height: 2.5rem;
+  }
 }
 
 .stack {
@@ -8,6 +12,10 @@
   align-items: center;
   justify-content: center;
   margin: 10vh 0;
+
+  img {
+    width: 100%;
+  }
 }
 
 .current-stack {

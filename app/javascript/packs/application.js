@@ -24,12 +24,14 @@ require("channels")
 
 // External imports
 import "bootstrap";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 import { navToggle } from './nav_toggle';
 import { loadDynamicBannerText } from '../components/banner';
-import { initRellax } from '../packs/rellax.js';
+import { initRellax } from './rellax';
 
 document.addEventListener('turbolinks:load', () => {
   // Navbar animation
@@ -42,6 +44,9 @@ document.addEventListener('turbolinks:load', () => {
   if (document.querySelector('.rellax')) {
     initRellax();
   }
+
+  // Scrolling animation
+  AOS.init();
 
 });
 

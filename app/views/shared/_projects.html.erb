@@ -1,34 +1,38 @@
-<div class="container project">
-  <h1 class="text-center mb-5">Projects</h1>
-  <p>Throughout my career journey, I worked in SaaS companies, always combining tourism and technologies. I chose to focus on learning to code in 2020 because, besides the fact that I love technology, I believe that digital transformation is the future, and I want to be part of it.</p>
+<div class="container-fluid container-jr rellax" data-rellax-speed="7">
+  <div class="container project" data-aos="fade-left" data-aos-duration="1000">
+    <h1 class="text-right mb-5">Projects</h1>
+    <p>Throughout my career journey, I worked in SaaS companies, always combining tourism and technologies. I chose to focus on learning to code in 2020 because, besides the fact that I love technology, I believe that digital transformation is the future, and I want to be part of it.</p>
 
-  <p>Here you can find a selection of some recent work. All projects were created with Ruby on Rails, from user stories through the production environment to demo day. </p>
+    <p>Here you can find a selection of some recent work. All projects were created with Ruby on Rails, from user stories through the production environment to demo day. </p>
 
-  <%= render "shared/carousel" %>
+    <%= render "shared/carousel" %>
 
-  <div class="stack">
-    <h2>My current <span id="stack-color">stack:</span></h2>
-    <div class="current-stack">
-      <div class="row justify-content-between">
-        <div class="col-md-2 col-sm-4">
-          <%= image_tag("ruby-on-rails.png", class: "stack-icon") %>
-          <p>Ruby on Rails</p>
-        </div>
-        <div class="col-md-2 col-sm-4">
-          <%= image_tag("js.png", class: "stack-icon") %>
-          <p>JavaScript (ES6)</p>
-        </div>
-        <div class="col-md-2 col-sm-4">
-          <%= image_tag("mySQL.png", class: "stack-icon") %>
-          <p>MySQL</p>
-        </div>
-        <div class="col-md-2 col-sm-4">
-          <%= image_tag("html.png", class: "stack-icon") %>
-          <p>HTML</p>
-        </div>
-        <div class="col-md-2 col-sm-4">
-          <%= image_tag("css1.png", class: "stack-icon") %>
-          <p>CSS</p>
+    <div class="stack rellax">
+
+      <h2 data-aos="fade-right" data-aos-duration="1000">My current <span id="stack-color">stack:</span></h2>
+
+      <div class="current-stack" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row justify-content-between">
+          <div class="col-md-2 col-sm-4">
+            <%= image_tag("ruby-on-rails.png", class: "stack-icon") %>
+            <p>Ruby on Rails</p>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <%= image_tag("js.png", class: "stack-icon") %>
+            <p>JavaScript (ES6)</p>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <%= image_tag("mySQL.png", class: "stack-icon") %>
+            <p>MySQL</p>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <%= image_tag("html.png", class: "stack-icon") %>
+            <p>HTML</p>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <%= image_tag("css1.png", class: "stack-icon") %>
+            <p>CSS</p>
+          </div>
         </div>
       </div>
     </div>
