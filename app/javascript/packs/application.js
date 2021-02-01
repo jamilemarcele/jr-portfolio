@@ -50,3 +50,4 @@ document.addEventListener('turbolinks:load', () => {
 
 });
 
+window.addEventListener('load', AOS.refresh)
