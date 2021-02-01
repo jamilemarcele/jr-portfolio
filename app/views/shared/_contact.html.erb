@@ -1,6 +1,6 @@
 <div class="container d-flex justify-content-center" id="contact">
   <div class="card-contact">
-    <h1 class="mt-5">Contact</h1>
+    <h1 class="mt-5" data-aos="zoom-in" data-aos-duration="1000">Contact</h1>
     <h3 class="mt-3">I'm always open for a chat!</h3>
 
     <div class="card-details">
@@ -11,7 +11,10 @@
           <i class="fab fa-linkedin-in fa-2x mt-3"></i>
         <% end %>
       </div>
-      <%= cl_image_tag("ugm7b01ut5tecdvhq2jp", class: "img-fluid") %>
+
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <%= cl_image_tag("ugm7b01ut5tecdvhq2jp", class: "img-fluid") %>
+      </div>
     </div>
   </div>
 </div>

@@ -40,13 +40,13 @@ document.addEventListener('turbolinks:load', () => {
   // Banner type script
   loadDynamicBannerText();
 
+  // Scrolling animation
+  AOS.init();
+
   //RELLAX INIT
   if (document.querySelector('.rellax')) {
     initRellax();
   }
-
-  // Scrolling animation
-  AOS.init();
 
 });
 
