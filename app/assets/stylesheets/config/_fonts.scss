@@ -8,6 +8,19 @@ $body-font: "Catamaran", "sans-serif";
 $headers-font: "Catamaran", "sans-serif";
 $Special-h1: "Alex Brush", "cursive";
 
+%green-color {
+  color: $green-portfolio;
+  font-weight: 700;
+}
+
+%link-pink {
+  color: $secondary-blue;
+
+  &:hover {
+    color: $pink-portfolio;
+  }
+}
+
 h1 {
   font-size: 84px !important;
   font-weight: 700 !important;
@@ -46,4 +59,13 @@ p {
 #banner-h1 {
   font-size: 88px !important;
   font-weight: 700 !important;
+}
+
+#green-color-bold {
+  @extend %green-color;
+}
+
+#special-link {
+  @extend %link-pink;
+  text-decoration: none;
 }

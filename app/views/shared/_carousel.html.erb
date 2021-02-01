@@ -3,6 +3,8 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
   </ol>
 
   <div class="carousel-inner mt-5">
@@ -70,19 +72,46 @@
         <div class="row carousel-inside">
 
           <div class="col-sm-6">
-            <%= link_to "https://mrcocktail-jamile.herokuapp.com//", target: "_blank" do %>
+            <%= link_to "https://mrcocktail-jamile.herokuapp.com/", target: "_blank" do %>
               <%= cl_image_tag("y9mel13s8m0whagbtzsf", class: "img-cocktail rotate-left") %>
               <%= cl_image_tag("frxztlzkcn8ozxd7vnpe", class: "img-cocktail-small rotate-right") %>
           <% end %>
           </div>
 
           <div class="col-sm-6 mobile-content">
-            <p>A cocktail listing and creation platform. Users can view cocktails listed and add their own creation. There is also option to leave a review. Mr Cocktail is my first own project built at the beginning for my coding journey.</p>
+            <p>This is the first project I built during my time at Le Wagon. It is a cocktail manager web app to store your favorite cocktails recipes 🍸🍹.
+              There is also option to leave a review. I used <%= link_to "TheCocktailDB", "https://www.thecocktaildb.com/api.php", id: "special-link", target: "_blank" %> API to feed my database. </p>
           </div>
 
         </div>
       </div>
     </div>
+
+    <div class="carousel-item p-5">
+      <div class="d-block w-100">
+        <div class="col-sm-12">
+          <%= link_to "https://jamilemarcele.github.io/JR-exchange-rate-calculator/", target: "_blank" do %>
+            <h4 class="text-center">Exchange Rate Calculator</h4>
+          <% end %>
+        </div>
+
+        <div class="row carousel-inside">
+
+          <div class="col-sm-6">
+            <%= link_to "https://jamilemarcele.github.io/JR-exchange-rate-calculator/", target: "_blank" do %>
+              <%= cl_image_tag("exchange-rate-calculator-jr", class:"img-exchange-rate rotate-left") %>
+            <% end %>
+          </div>
+
+          <div class="col-sm-6 mobile-content">
+            <p>A simple exchange rate calculator built with Vanilla JavaScript and the <%= link_to "ExchangeRate-API", "https://www.exchangerate-api.com/", id: "special-link", target: "_blank" %>.
+              You can find currency conversion rates for 160 countries 🌎 </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

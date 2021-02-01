@@ -32,9 +32,8 @@
   line-height: 3rem !important;
 }
 
-.card-text #stack-color a {
-  color: $green-portfolio;
-  font-weight: 700;
+.card-text #green-color a {
+  @extend %green-color;
   text-decoration: none;
 
   &:hover {
@@ -43,13 +42,8 @@
 }
 
 .card-text a {
-  color: $secondary-blue;
+  @extend %link-pink;
   text-decoration: none;
-
-  &:hover {
-    color: $pink-portfolio;
-  }
-
 }
 
 .contact-img {
