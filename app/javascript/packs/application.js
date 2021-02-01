@@ -33,15 +33,16 @@ import { navToggle } from './nav_toggle';
 import { loadDynamicBannerText } from '../components/banner';
 import { initRellax } from './rellax';
 
+
 document.addEventListener('turbolinks:load', () => {
+  // Scrolling animation
+  AOS.init();
+
   // Navbar animation
   navToggle();
 
   // Banner type script
   loadDynamicBannerText();
-
-  // Scrolling animation
-  AOS.init();
 
   //RELLAX INIT
   if (document.querySelector('.rellax')) {
