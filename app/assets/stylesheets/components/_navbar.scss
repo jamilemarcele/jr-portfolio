@@ -59,12 +59,16 @@
   color: $secondary-blue !important;
   box-shadow: none;
   transition: all .3s ease;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 
   &:hover {
     transform: scale(1.2);
     color: $pink-portfolio !important;
   }
+
+  //&:active {
+  //  text-decoration: none;
+  //}
 }
 
 button:focus {
