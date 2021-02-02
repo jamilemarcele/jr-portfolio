@@ -6,7 +6,6 @@ require("channels")
 
 // External imports
 import "bootstrap";
-import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 // Internal imports, e.g:
@@ -17,9 +16,6 @@ import { initRellax } from './rellax';
 
 
 document.addEventListener('turbolinks:load', () => {
-  // Scrolling animation
-  AOS.init();
-
   // Navbar animation
   navToggle();
 
@@ -31,6 +27,9 @@ document.addEventListener('turbolinks:load', () => {
     initRellax();
   }
 
+  // Scrolling animation
+  AOS.init();
+
 });
 
-// window.addEventListener('load', AOS.refresh)
+window.addEventListener('load', AOS.refresh)
