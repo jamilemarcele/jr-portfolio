@@ -17,9 +17,6 @@ import { initRellax } from './rellax';
 
 
 document.addEventListener('turbolinks:load', () => {
-  // Scrolling animation
-  AOS.init();
-
   // Navbar animation
   navToggle();
 
@@ -30,6 +27,9 @@ document.addEventListener('turbolinks:load', () => {
   if (document.querySelector('.rellax')) {
     initRellax();
   }
+
+  // Scrolling animation
+  AOS.init();
 
 });
 
