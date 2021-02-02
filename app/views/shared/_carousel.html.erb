@@ -1,9 +1,10 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="400">
+<div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="400">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
   </ol>
 
   <div class="carousel-inner mt-5">
@@ -26,13 +27,32 @@
             <% end %>
           </div>
 
-          <div class="col-sm-6 mobile-content">
+          <div class="col-sm-6 mobile-content mt-5 d-flex align-items-center">
             <p>Cleanaroo is an user friendly mobile app that matches busy vacation rental property managers with
               the best cleaner offering them high quality and reliable cleaning service. </p>
           </div>
 
         </div>
 
+      </div>
+    </div>
+
+    <div class="carousel-item p-5">
+      <div class="d-block w-100">
+        <div class="col-sm-12">
+          <h4 class="text-center">Cleanaroo - Youtube Demo</h4>
+        </div>
+
+        <div class="row carousel-inside">
+
+          <div class="col-12 embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item"  width="560" height="315" src="https://www.youtube.com/embed/QlWykrhp9pk" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -52,7 +72,7 @@
             <% end %>
           </div>
 
-          <div class="col-sm-6 mobile-content img-plantify">
+          <div class="col-sm-6 mobile-content img-plantify d-flex align-items-center mt-5">
             <p>Plantify is a renting plant service for variety seeking, busy and gardening-skills-lacking people, wanting to get assistance in choosing the right plants to enjoy a home filled with green love.</p>
           </div>
 
@@ -74,10 +94,10 @@
             <%= link_to "https://mrcocktail-jamile.herokuapp.com/", target: "_blank" do %>
               <%= cl_image_tag("y9mel13s8m0whagbtzsf", class: "img-cocktail rotate-left") %>
               <%= cl_image_tag("frxztlzkcn8ozxd7vnpe", class: "img-cocktail-small rotate-right") %>
-          <% end %>
+            <% end %>
           </div>
 
-          <div class="col-sm-6 mobile-content">
+          <div class="col-sm-6 mobile-content d-flex align-items-center mt-5">
             <p>This is the first project I built during my time at Le Wagon. It is a cocktail manager web app to store your favorite cocktails recipes 🍸🍹
               <br>
               There is also option to leave a review. I used <%= link_to "TheCocktailDB", "https://www.thecocktaildb.com/api.php", id: "special-link", target: "_blank" %> API to feed the database. </p>
@@ -103,7 +123,7 @@
             <% end %>
           </div>
 
-          <div class="col-sm-6 mobile-content">
+          <div class="col-sm-6 mobile-content d-flex align-items-center">
             <p>A simple exchange rate calculator built with Vanilla JavaScript and the <%= link_to "ExchangeRate-API", "https://www.exchangerate-api.com/", id: "special-link", target: "_blank" %>.
               <br>
               You can find currency conversion rates for 160 countries 🌎 </p>
@@ -124,3 +144,4 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+

@@ -9,7 +9,6 @@ import "bootstrap";
 import AOS from 'aos';
 
 // Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
 import { navToggle } from './nav_toggle';
 import { loadDynamicBannerText } from '../components/banner';
 import { initRellax } from './rellax';
