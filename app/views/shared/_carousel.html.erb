@@ -1,9 +1,10 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="400">
+<div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="400">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
   </ol>
 
   <div class="carousel-inner mt-5">
@@ -33,6 +34,25 @@
 
         </div>
 
+      </div>
+    </div>
+
+    <div class="carousel-item p-5">
+      <div class="d-block w-100">
+        <div class="col-sm-12">
+          <h4 class="text-center">Cleanaroo - Youtube Demo</h4>
+        </div>
+
+        <div class="row carousel-inside">
+
+          <div class="col-12 embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item"  width="560" height="315" src="https://www.youtube.com/embed/QlWykrhp9pk" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -74,7 +94,7 @@
             <%= link_to "https://mrcocktail-jamile.herokuapp.com/", target: "_blank" do %>
               <%= cl_image_tag("y9mel13s8m0whagbtzsf", class: "img-cocktail rotate-left") %>
               <%= cl_image_tag("frxztlzkcn8ozxd7vnpe", class: "img-cocktail-small rotate-right") %>
-          <% end %>
+            <% end %>
           </div>
 
           <div class="col-sm-6 mobile-content">
@@ -124,3 +144,4 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+

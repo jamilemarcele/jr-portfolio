@@ -1,12 +1,10 @@
 #carouselExampleIndicators {
-  -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
-  -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
-  box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
-  background-color: #ffffff;
-  height: 55vh;
-  border-radius: 12px;
-  //padding-bottom: 5rem !important;
-  background-size: contain;
+  -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61) !important;
+  -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61) !important;
+  box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61) !important;
+  background-color: #ffffff !important;
+  height: 75vh !important;
+  border-radius: 12px !important;
 }
 
 .carousel-inside {
