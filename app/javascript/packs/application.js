@@ -6,7 +6,6 @@ require("channels")
 
 // External imports
 import "bootstrap";
-import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 // Internal imports, e.g:
