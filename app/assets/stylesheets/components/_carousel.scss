@@ -2,9 +2,9 @@
   -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61) !important;
   -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61) !important;
   box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61) !important;
-  background-color: #ffffff !important;
-  height: 75vh !important;
-  border-radius: 12px !important;
+  background-color: #ffffff;
+  height: 75vh;
+  border-radius: 12px;
 }
 
 .carousel-inside {
@@ -36,22 +36,22 @@
 }
 
 .img-exchange-rate {
-  width: 42%;
+  width: 50%;
   margin-left: 40px;
   margin-bottom: 40px;
 }
 
 .img-cocktail {
-  width: 50%;
+  width: 60%;
 }
 
 .img-cocktail-small {
-  width: 25%;
+  width: 30%;
 }
 
 .img-plantify {
-  width: 100%;
-  //margin-top: 2.1rem;
+  width: 110%;
+  margin-top: 50px;
 }
 
 .rotate-left {
@@ -64,6 +64,7 @@
 
 .img-device-flex {
   width: 32%;
+  margin-top: 55px;
 }
 
 @media only screen and (max-width: 768px) {
