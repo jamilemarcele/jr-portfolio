@@ -33,4 +33,4 @@ document.addEventListener('turbolinks:load', () => {
 
 });
 
-// window.addEventListener('load', AOS.refresh)
+window.addEventListener('load', AOS.refresh)
